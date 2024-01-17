@@ -1,6 +1,5 @@
 {
   "name": "techfestival",
-  "homepage": "https://github.com/karma1505/glitch.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
