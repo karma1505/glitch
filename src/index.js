@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import Sponsors from './sponsors';
 import reportWebVitals from './reportWebVitals';
+import About from './about';
+import Contact from './contact'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <About />
     <Sponsors />
+    <Contact />
   </React.StrictMode>
 );
 

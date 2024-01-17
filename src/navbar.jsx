@@ -1,5 +1,10 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faHome, faInfo, faUsers, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+library.add(faHome, faInfo, faUsers, faEnvelope);
 
 const CustomNavbar = () => {
   const scrollToSponsors = () => {
@@ -11,6 +16,22 @@ const CustomNavbar = () => {
 
   const scrollToHome = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToContact = () => {
+    const documentHeight = document.documentElement.scrollHeight;
+  
+    window.scrollTo({
+      top: documentHeight,
+      behavior: 'smooth',
+    });
   };
 
   return (
@@ -25,10 +46,26 @@ const CustomNavbar = () => {
       </Navbar.Brand>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="flex-column ml-auto">
-          <Nav.Link onClick={scrollToHome} className="nav-link">Home</Nav.Link><br />
-          <Nav.Link href="#about" className="nav-link">About Us</Nav.Link><br />
-          <Nav.Link onClick={scrollToSponsors} className="nav-link">Our Sponsors</Nav.Link><br />
-          <Nav.Link href="#contact" className="nav-link">Contact Us</Nav.Link><br />
+          <Nav.Link onClick={scrollToHome} className="nav-link">
+            <FontAwesomeIcon icon={faHome} style={{ fontSize: '30px', marginRight: '8px' }} />
+            Home
+          </Nav.Link>
+          < br />
+          <Nav.Link onClick={scrollToAbout} className="nav-link">
+            <FontAwesomeIcon icon={faInfo} style={{ fontSize: '30px', marginRight: '8px' }} />
+            About Us
+          </Nav.Link>
+          < br />
+          <Nav.Link onClick={scrollToSponsors} className="nav-link">
+            <FontAwesomeIcon icon={faUsers} style={{ fontSize: '30px', marginRight: '8px' }} />
+            Our Sponsors
+          </Nav.Link>
+          < br />
+          <Nav.Link onClick={scrollToContact} className="nav-link">
+            <FontAwesomeIcon icon={faEnvelope} style={{ fontSize: '30px', marginRight: '8px' }} />
+            Contact Us
+          </Nav.Link>
+          < br />
         </Nav>
       </Navbar.Collapse>
     </Navbar>
