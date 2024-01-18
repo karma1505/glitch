@@ -1,7 +1,7 @@
 {
-  "homepage": "https://gitname.github.io/glitch",
   "name": "techfestival",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/glitch",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
