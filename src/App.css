@@ -12,9 +12,38 @@
   color: white;
 }
 
+body {
+  margin: 0;
+}
+
+.home-comp{
+  position:absolute;
+  left:95px;
+  top:60px;
+  max-width:60%;
+}
+
+
+.coming{
+  position: absolute;
+  top: 100px;
+}
+
+.timer{
+  display: flex;
+}
+
+.timer div{
+  padding:25px;
+}
+
+.timer div p{
+  font-size: 40px;
+  margin-bottom: -5px;
+}
 
 .App-header img {
-  max-width: 50%;
+  max-width: 45%;
   height: auto;
   z-index: 0; 
 }
@@ -127,7 +156,7 @@
   max-width: 50%; 
   height: auto;   
   display: block; 
-  margin-left:250px;
+  margin-left:60px;
 }
 
 
