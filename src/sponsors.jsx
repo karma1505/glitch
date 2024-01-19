@@ -9,8 +9,8 @@ const Sponsors = () => {
       <div className="sponsors-content">
         <div>
           <h2>Title Sponsor</h2>
-          <img src="sponsort.png" alt="Silver Sponsor 1" />
-          <p>Cyret Technologies</p>
+          <img src="insert.png" alt="Silver Sponsor 1" />
+          <p>Insert Text</p>
 
           <h2>Associate Title Sponsor</h2>
           <img src="sponsorat.jpg" alt="Silver Sponsor 2" />
