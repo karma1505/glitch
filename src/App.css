@@ -20,9 +20,16 @@ body {
   position:absolute;
   left:95px;
   top:60px;
-  max-width:60%;
+  max-width:40%;
+}
+.home-glitch{
+  position: relative;
+  top: -10px;
 }
 
+.home-id{
+  position:absolute;
+}
 
 .coming{
   position: absolute;
@@ -44,8 +51,7 @@ body {
 
 .App-header img {
   max-width: 45%;
-  height: auto;
-  z-index: 0; 
+  height: auto; 
 }
 
 .floating-icons {
