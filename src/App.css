@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
 
 .App-header {
+  position: relative;
   background-color: #000000;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-header img {
-  max-width: 50%; 
-  height: auto;
 
+.App-header img {
+  max-width: 50%;
+  height: auto;
+  z-index: 0; 
 }
 
 .floating-icons {
@@ -36,7 +39,7 @@
   margin-bottom: 10px;
   background-color: #111111;
   color: white;
-  padding: 10px;
+  padding: 15px;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -110,8 +113,9 @@
 
 .about-content {
   max-width: 800px;
-  margin: 0 auto;
+  margin-right: 150px;
   font-family: 'IBM Plex Mono', monospace;
+  
 }
 
 .about-tracker {
@@ -123,6 +127,7 @@
   max-width: 50%; 
   height: auto;   
   display: block; 
+  margin-left:250px;
 }
 
 
