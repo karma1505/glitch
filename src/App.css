@@ -121,27 +121,6 @@
   background-color: #333333;
 }
 
-
-.social-icons {
-  width: 20px; 
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-  background-color: #111111;
-  color: white;
-  padding: 15px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.social-icons a {
-  margin-left: 100px;
-}
-
-
 .sponsors-container {
   background-color: #000000;
   color: white;
