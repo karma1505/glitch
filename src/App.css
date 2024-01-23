@@ -91,6 +91,57 @@
   background-color: #333333;
 }
 
+.floating-icons-right {
+  position: fixed;
+  top: 50%;
+  right: 10px; /* Adjust the right margin as needed */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.floating-icons-right div {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #111111;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.floating-icons-right div:hover {
+  background-color: #333333;
+}
+
+
+.social-icons {
+  width: 20px; 
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #111111;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.social-icons a {
+  margin-left: 100px;
+}
+
+
 .sponsors-container {
   background-color: #000000;
   color: white;
@@ -142,7 +193,7 @@
 
 .about-container {
   background-color: #000000;
-  font-size: 24px;
+  font-size: 18px;
   color: white;
   display: flex;
   flex-direction: row-reverse;

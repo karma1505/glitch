@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CustomNavbar from './navbar';
 import './App.css';
+import CustomSocials from './socials';
 
 function CountdownTimer() {
   const calculateTimeLeft = () => {
@@ -56,6 +57,7 @@ function App() {
   return (
     <div className="App">
       <CustomNavbar />
+      <CustomSocials />
       <div className="App-header">
         <h1>GLITCH 2024</h1>
         <p className='coming'>COMING SOON</p>
