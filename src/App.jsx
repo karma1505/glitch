@@ -64,6 +64,7 @@ function App() {
           <img src="seemyscree.apng" alt="comp" />
         </div>
           <img src="glitchlogo.png" alt="logo" className='home-glitch' />
+          <img src="hacked.apng" alt="hacked" className='home-hack' />
       </div>
     </div>
   );

@@ -25,6 +25,12 @@
   width: 40%;
 }
 
+.home-hack {
+  position: absolute;
+  right: 95px;
+  top: 110px;
+  width: 20%;
+}
 .coming {
   position: absolute;
   top: 100px;
