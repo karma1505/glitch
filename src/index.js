@@ -13,8 +13,7 @@ root.render(
     <App />
     <About />
     <Sponsors />
-    <Contact />
-    
+    <Contact /> 
   </React.StrictMode>
 );
 
