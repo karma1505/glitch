@@ -44,7 +44,7 @@
 }
 
 .timer div {
-  padding: 25px;
+  padding: 18px;
 }
 
 .timer div p {
@@ -94,7 +94,7 @@
 .floating-icons-right {
   position: fixed;
   top: 50%;
-  right: 10px; /* Adjust the right margin as needed */
+  right: 20px; 
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
