@@ -4,11 +4,11 @@ import { faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const CustomSocials = () => {
   const openInstagram = () => {
-    window.open('https://www.instagram.com/glitch.shoolini/', '_blank');
+    window.open('https://www.instagram.com/shooliniuniversity/', '_blank');
   };
 
   const openTwitter = () => {
-    window.open('https://twitter.com/glitchshoolini', '_blank');
+    window.open('https://twitter.com/ShooliniUniv', '_blank');
   };
 
   return (
