@@ -6,7 +6,6 @@ import Sponsors from './sponsors';
 import reportWebVitals from './reportWebVitals';
 import About from './about';
 import Contact from './contact'
-import Register from './register';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +13,6 @@ root.render(
     <App />
     <About />
     <Sponsors />
-    <Register />
     <Contact />
     
   </React.StrictMode>
