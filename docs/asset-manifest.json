@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/glitch/static/css/main.43fb51b7.css",
+    "main.js": "/glitch/static/js/main.53189eb5.js",
+    "static/js/787.8e1eb944.chunk.js": "/glitch/static/js/787.8e1eb944.chunk.js",
+    "index.html": "/glitch/index.html",
+    "main.43fb51b7.css.map": "/glitch/static/css/main.43fb51b7.css.map",
+    "main.53189eb5.js.map": "/glitch/static/js/main.53189eb5.js.map",
+    "787.8e1eb944.chunk.js.map": "/glitch/static/js/787.8e1eb944.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43fb51b7.css",
+    "static/js/main.53189eb5.js"
+  ]
+}
