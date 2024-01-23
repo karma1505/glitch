@@ -60,13 +60,10 @@ function App() {
         <h1>GLITCH 2024</h1>
         <p className='coming'>COMING SOON</p>
         <CountdownTimer />
-      <div className="home-comp">
-        <img src="seemyscree.apng" alt="comp" />
-      </div>
-      <div className="home-id">
-        <img src="id.webp" alt="id" />
-      </div>
-        <img src="glitch.jpg" alt="glitch" className="home-glitch"/>
+        <div className="home-comp">
+          <img src="seemyscree.apng" alt="comp" />
+        </div>
+          <img src="glitchlogo.png" alt="logo" className='home-glitch' />
       </div>
     </div>
   );

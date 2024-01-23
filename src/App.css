@@ -12,41 +12,38 @@
   color: white;
 }
 
-body {
-  margin: 0;
+.home-comp {
+  position: absolute;
+  left: 95px;
+  top: 120px;
+  width: 40%;
 }
 
-.home-comp{
-  position:absolute;
-  left:95px;
-  top:60px;
-  max-width:40%;
-}
-.home-glitch{
+.home-glitch {
   position: relative;
-  top: -10px;
+  top: 40px;
+  width: 40%;
 }
 
-.home-id{
-  position:absolute;
-}
-
-.coming{
+.coming {
   position: absolute;
   top: 100px;
 }
 
-.timer{
+.timer {
   display: flex;
+  position: relative;
+  z-index:2;
+  top:100px;
 }
 
-.timer div{
-  padding:25px;
+.timer div {
+  padding: 25px;
 }
 
-.timer div p{
+.timer div p {
   font-size: 40px;
-  margin-bottom: -5px;
+  margin-bottom: 0;
 }
 
 .App-header img {
