@@ -19,10 +19,13 @@
   width: 40%;
 }
 
-.home-glitch {
-  position: relative;
-  top: 40px;
-  width: 40%;
+@media only screen and (max-width: 600px) {
+  .home-comp{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 60%;  
+  }
 }
 
 .home-hack {
@@ -31,9 +34,14 @@
   top: 110px;
   width: 20%;
 }
-.coming {
+
+@media only screen and (max-width: 600px) {
+.home-hack {
   position: absolute;
+  right: 25px;  
   top: 100px;
+  width: 28%;
+  }
 }
 
 .timer {
@@ -44,12 +52,33 @@
 }
 
 .timer div {
-  padding: 18px;
+  padding: 12px;
 }
 
 .timer div p {
   font-size: 40px;
   margin-bottom: 0;
+}
+
+
+.home-glitch {
+  position: relative;
+  top: 20px;
+  width: 850px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-glitch {
+    position: relative;
+    left: 10px;
+    top: 100px;
+    width: 500px;  
+  }
+}
+
+.coming {
+  position: absolute;
+  top: 100px;
 }
 
 .App-header img {
@@ -192,7 +221,7 @@
 }
 
 .about-tracker img { 
-  max-width: 50%; 
+  max-width: 45%; 
   height: auto;   
   display: block; 
   margin-left:60px;
@@ -204,7 +233,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
     width: 100%;
   }
